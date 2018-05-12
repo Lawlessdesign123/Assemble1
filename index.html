@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+    integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+    crossorigin="anonymous">
+    <title>Assemble - Web Roster Application</title>
+
+  </head>
+
+  <!-- Header -->
+
+
+
+  <body oncontextmenu="return false";>
+
+  <div class="page active" id="1week">
+    <header>
+      <div class="headcontainer">
+        <h1>Assemble</h1>
+        <div class="left">
+          <p><a href="previous.html"><i class="fas fa-arrow-alt-circle-left fa-lg" style="color:white"></a></i></p>
+        </div>
+        <div class="middle">
+            <p>1 Week</p>
+        </div>
+          <div class="right">
+            <p><a href="previous.html"><i class="fas fa-arrow-alt-circle-right fa-lg" style="color:white"></a></i></p>
+          </div>
+      </div>
+    </header>
+      <div class="clr">
+      </div>
+    <div class="container-1-week">
+      <div class="main-block bluemenu dropdown">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">View</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#" data-target="1week" class="nav-link">1 Week</a>
+            <a href="#" data-target="2weeks" class="nav-link">2 Weeks</a>
+            <a href="#" data-target="1month" class="nav-link">1 Month</a>
+          </div>
+        </div>
+      </div>
+          <div class="topbar" onclick="change(this)">
+            <p>M</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+            <p>T</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+          <p>W</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+          <p>T</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+          <p>F</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+          <p>S</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+          <p>S</p>
+          </div>
+      <div class="main-block2">
+            <p>Stephen</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+            <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+            <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="main-block2">
+          <p>Stephen</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="main-block2">
+          <p>Stephen</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+    </div>
+
+    <div class="clr2">
+      <hr>
+    </div>
+
+    <div class= "buttons">
+      <button class= "orange" onclick="changeColor('o')">08:00-16:30</button>
+      <button class= "red" onclick="changeColor('r')">08:30-17:00</button>
+      <button class= "green" onclick="changeColor('g')">09:00-17:30</button>
+      <button class= "purple" onclick="changeColor('p')">09:30-18:00</button>
+      <button id= "assemble">Assemble</button>
+    </div>
+  </div>
+  <div class="page" id="2weeks">
+    <header>
+      <div class="headcontainer">
+        <h1>Assemble</h1>
+        <div class="left">
+          <p><a href="previous.html"><i class="fas fa-arrow-alt-circle-left fa-lg" style="color:white"></a></i></p>
+        </div>
+        <div class="middle">
+            <p>2 Weeks</p>
+        </div>
+          <div class="right">
+            <p><a href="previous.html"><i class="fas fa-arrow-alt-circle-right fa-lg" style="color:white"></a></i></p>
+          </div>
+      </div>
+    </header>
+      <div class="clr">
+      </div>
+    <div class="container-2-week">
+      <div class="main-block bluemenu dropdown">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">View</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#" data-target="1week" class="nav-link">1 Week</a>
+            <a href="#" data-target="2weeks" class="nav-link">2 Weeks</a>
+            <a href="#" data-target="1month" class="nav-link">1 Month</a>
+          </div>
+        </div>
+      </div>
+          <div class="topbar" onclick="change(this)">
+            <p>M</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+            <p>T</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+          <p>W</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+          <p>T</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+          <p>F</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+          <p>S</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+          <p>S</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+            <p>M</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+            <p>T</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+          <p>W</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+          <p>T</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+          <p>F</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+          <p>S</p>
+          </div>
+          <div class="topbar" onclick="change(this)">
+          <p>S</p>
+          </div>
+      <div class="main-block2">
+            <p>S</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+            <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+            <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+            <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+            <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="sidebar" onclick="change(this)">
+          <p>OFF</p>
+          </div>
+          <div class="main-block2">
+                <p>Stephen</p>
+              </div>
+              <div class="sidebar" onclick="change(this)">
+                <p>OFF</p>
+              </div>
+              <div class="sidebar" onclick="change(this)">
+                <p>OFF</p>
+              </div>
+              <div class="sidebar" onclick="change(this)">
+              <p>OFF</p>
+              </div>
+              <div class="sidebar" onclick="change(this)">
+              <p>OFF</p>
+              </div>
+              <div class="sidebar" onclick="change(this)">
+              <p>OFF</p>
+              </div>
+              <div class="sidebar" onclick="change(this)">
+              <p>OFF</p>
+              </div>
+              <div class="sidebar" onclick="change(this)">
+              <p>OFF</p>
+              </div>
+              <div class="sidebar" onclick="change(this)">
+                <p>OFF</p>
+              </div>
+              <div class="sidebar" onclick="change(this)">
+                <p>OFF</p>
+              </div>
+              <div class="sidebar" onclick="change(this)">
+              <p>OFF</p>
+              </div>
+              <div class="sidebar" onclick="change(this)">
+              <p>OFF</p>
+              </div>
+              <div class="sidebar" onclick="change(this)">
+              <p>OFF</p>
+              </div>
+              <div class="sidebar" onclick="change(this)">
+              <p>OFF</p>
+              </div>
+              <div class="sidebar" onclick="change(this)">
+              <p>OFF</p>
+              </div>
+              <div class="main-block2">
+                    <p>Stephen</p>
+                  </div>
+                  <div class="sidebar" onclick="change(this)">
+                    <p>OFF</p>
+                  </div>
+                  <div class="sidebar" onclick="change(this)">
+                    <p>OFF</p>
+                  </div>
+                  <div class="sidebar" onclick="change(this)">
+                  <p>OFF</p>
+                  </div>
+                  <div class="sidebar" onclick="change(this)">
+                  <p>OFF</p>
+                  </div>
+                  <div class="sidebar" onclick="change(this)">
+                  <p>OFF</p>
+                  </div>
+                  <div class="sidebar" onclick="change(this)">
+                  <p>OFF</p>
+                  </div>
+                  <div class="sidebar" onclick="change(this)">
+                  <p>OFF</p>
+                  </div>
+                  <div class="sidebar" onclick="change(this)">
+                    <p>OFF</p>
+                  </div>
+                  <div class="sidebar" onclick="change(this)">
+                    <p>OFF</p>
+                  </div>
+                  <div class="sidebar" onclick="change(this)">
+                  <p>OFF</p>
+                  </div>
+                  <div class="sidebar" onclick="change(this)">
+                  <p>OFF</p>
+                  </div>
+                  <div class="sidebar" onclick="change(this)">
+                  <p>OFF</p>
+                  </div>
+                  <div class="sidebar" onclick="change(this)">
+                  <p>OFF</p>
+                  </div>
+                  <div class="sidebar" onclick="change(this)">
+                  <p>OFF</p>
+                  </div>
+    </div>
+
+    <div class="clr2">
+      <hr>
+    </div>
+
+    <div class= "buttons">
+      <button class= "orange" onclick="changeColor('o')">08:00-16:30</button>
+      <button class= "red" onclick="changeColor('r')">08:30-17:00</button>
+      <button class= "green" onclick="changeColor('g')">09:00-17:30</button>
+      <button class= "purple" onclick="changeColor('p')">09:30-18:00</button>
+      <button id= "assemble">Assemble</button>
+    </div>
+  </div>
+  <div class="page" id="1month">
+
+    <!-- Top -->
+
+    <header>
+      <div class="headcontainer">
+        <h1>Assemble</h1>
+          <div class="left">
+            <p><a href="previous.html"><i class="fas fa-arrow-alt-circle-left fa-lg" style="color:white"></a></i></p>
+          </div>
+          <div class="middle">
+            <p>1 Month</p>
+          </div>
+          <div class="right">
+            <p><a href="previous.html"><i class="fas fa-arrow-alt-circle-right fa-lg" style="color:white"></a></i></p>
+          </div>
+      </div>
+    </header>
+      <div class="clr">
+      </div>
+
+    <!-- View Nav Button -->
+
+    <div class="container">
+      <div class="main-block bluemenu dropdown">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">View</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#" data-target="1week" class="nav-link">1 Week</a>
+            <a href="#" data-target="2weeks" class="nav-link">2 Weeks</a>
+            <a href="#" data-target="1month" class="nav-link">1 Month</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Names & Days Block-->
+
+      <div class="topbar" onclick="change(this)">
+        <p>M</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>T</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>W</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>T</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>F</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>S</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>S</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>M</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>T</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>W</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>T</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>F</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>S</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>S</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>M</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>T</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>W</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>T</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>F</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>S</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>S</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>M</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>T</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>W</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>T</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>F</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>S</p>
+      </div>
+      <div class="topbar" onclick="change(this)">
+        <p>S</p>
+      </div>
+      <div class="main-block2">
+        <p>Stephen</p>
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="main-block2">
+        <p>Stephen</p>
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="main-block2">
+        <p>Stephen</p>
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+      <div class="sidebar" onclick="change(this)">
+        OFF
+      </div>
+
+      <!-- Buttons -->
+
+    </div>
+    <div class="clr2">
+      <hr>
+    </div>
+    <div class= "buttons">
+      <button class= "orange" onclick="changeColor('o')">08:00-16:30</button>
+      <button class= "red" onclick="changeColor('r')">08:30-17:00</button>
+      <button class= "green" onclick="changeColor('g')">09:00-17:30</button>
+      <button class= "purple" onclick="changeColor('p')">09:30-18:00</button>
+      <button id= "assemble">Assemble</button>
+    </div>
+  </div>
+
+    <!--End / Javsacript -->
+
+    <script type="text/javascript" src="assemble.js">
+    </script>
+  </body>
+</html>

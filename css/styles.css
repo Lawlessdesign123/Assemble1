@@ -1,0 +1,308 @@
+body {
+  -webkit-user-select: none;
+  background-color: #f4f4f4;
+  color: #555555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6em;
+  margin: 0;
+  }
+
+
+
+  .container-1-week {
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0.2em;
+    padding: 0.2em;
+    text-align: center;
+  }
+
+  .container-2-week {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(15 , 1fr);
+    grid-gap: 0.2em;
+    padding: 0.2em;
+    text-align: center;
+  }
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(29 , 1fr);
+  grid-gap: 0.2em;
+  padding: 0.2em;
+  text-align: center;
+}
+
+.container > div {
+  border-radius: 5px;
+  border: 1px solid black;
+  grid-auto-rows: minmax(60px);
+}
+
+header {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+header h1 {
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.left {
+  width: 10%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  float: left;
+  font-weight: bold;
+  border-radius: 6px 0px 0px 6px;
+  background-color: #1E90FF;
+  color: white;
+  height: 50px;
+}
+
+.middle {
+  float: left;
+  width: 80%;
+  box-sizing: border-box;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 50px;
+  background-color: #1E90FF;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.right {
+  font-weight: bold;
+  border-radius: 0px 6px 6px 0px;
+  border: 1px solid black;
+  width: 10%;
+  box-sizing: border-box;
+  float: right;
+  background-color: #1E90FF;
+  color: white;
+  height: 50px;
+}
+
+/* Navigation */
+.page {
+  display: none;
+  width: 100%;
+  min-height: 100%;
+  position: fixed;
+}
+
+.active {
+  display: block;
+}
+
+.main-block {
+  text-align: center;
+  border: 1px white;
+  border-radius: 5px;
+  height: 60px;
+  background-color: #333;
+  color: #fff;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.topbar {
+  font-size: 14px;
+  text-align: center;
+  border: 1px white;
+  border-radius: 5px;
+  height: 60px;
+  float: right;
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding-top: 6px;
+}
+
+.bluemenu:hover {
+background-color: #1E90FF;
+}
+
+.dropdown button {
+background: none;
+ color: inherit;
+ border: none;
+ padding: 20px;
+ font: inherit;
+ cursor: pointer;
+ outline: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.main-block {
+  text-align: center;
+  border: 1px white;
+  border-radius: 5px;
+  height: 60px;
+  background-color: #333;
+  color: #fff;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.main-block2 {
+  text-align: center;
+  border: 1px white;
+  border-radius: 5px;
+  height: 60px;
+  background-color: #333;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  text-align: center;s
+  border: 1px white;
+  border-radius: 5px;
+  height: 60px;
+  background-color: #A9A9A9;
+  color: #fff;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.buttons {
+  width: 80%;
+  margin: auto;
+  height: 60px;
+  text-align: left;
+}
+
+.buttons button {
+  display: inline;
+  border-radius: 5px;
+  height: 50px;
+  border-style: none;
+  margin-top: 3px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  width: 102px;
+}
+
+.purple {
+  background-color: #B163F6;
+}
+
+.orange {
+  background-color: #FE9545;
+}
+
+.red {
+  background-color: #FE5757;
+}
+
+.green {
+  background-color: #36D064;
+}
+
+#assemble {
+  background-color: #1E90FF;
+
+  border: 1px white;
+  border-radius: 5px;
+  float: right;
+  width: 115px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+hr {
+  width: 80%;
+  height: 1px;
+  background-color: black;
+}
+
+.blue {
+  background-color: #A9A9A9;
+}
+
+.clr {
+  clear:both;
+  width: 80%;
+  height: 0.2em;
+}
+
+.sidebar:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+.container, header {
+  width: 99%;
+  margin: auto;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.sidebar {
+  font-size: 10px;
+  max-width: 50px;
+}
+
+.buttons {
+  display: grid;
+  width: 99%;
+  margin: auto;
+}
+
+.buttons button {
+  width: 99%;
+  margin-right: 0;
+  margin-top: 5px;
+}
+#assemble {
+  width: 99%;
+}
+
+.topbar {
+  font-size: 8px;
+  max-width: 50px;
+}
+
+.main-block {
+  font-size: 14px;
+  max-width: 50px;
+}
+
+.main-block2 {
+  font-size: 8px;
+}
+
+hr {
+  width: 99%;
+  margin: auto;
+}
