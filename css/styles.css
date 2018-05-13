@@ -7,6 +7,8 @@ body {
   font-weight: normal;
   line-height: 1.6em;
   margin: 0;
+  padding-left: 1px;
+  padding-right: 10px;
   }
 
 
@@ -15,7 +17,7 @@ body {
     margin: auto;
     width: 100%;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 0.2em;
     padding: 0.2em;
     text-align: center;
@@ -99,7 +101,7 @@ header h1 {
   display: none;
   width: 100%;
   min-height: 100%;
-  position: fixed;
+  position: relative;
 }
 
 .active {
@@ -135,6 +137,7 @@ header h1 {
 background-color: #1E90FF;
 }
 
+
 .dropdown button {
 background: none;
  color: inherit;
@@ -145,14 +148,32 @@ background: none;
  outline: inherit;
 }
 
+#myDropdown a {
+  width: 80px;
+  font-size: 15px;
+  margin-bottom: 1px;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #1E90FF;
+  display: block;
+  margin-left: -15px;
+}
+
 .dropdown-content {
+    margin-top: -15px;
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    color: white;
+    background-color: none;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
 }
 
 .dropdown:hover .dropdown-content {
@@ -268,6 +289,7 @@ hr {
   grid-template-columns: repeat(8, 1fr);
 }
 
+
 .sidebar {
   font-size: 10px;
   max-width: 50px;
@@ -280,12 +302,12 @@ hr {
 }
 
 .buttons button {
-  width: 99%;
+  width: 100%;
   margin-right: 0;
   margin-top: 5px;
 }
 #assemble {
-  width: 99%;
+  width: 100%;
 }
 
 .topbar {
@@ -294,15 +316,31 @@ hr {
 }
 
 .main-block {
-  font-size: 14px;
-  max-width: 50px;
+  width: 50px;
+  border: 1px white;
+  border-radius: 5px;
+  height: 60px;
+  background-color: #333;
+  color: white;
+  box-sizing: border-box;
+  font-size: 12px;
 }
 
+.main-block .dropdown .dropbtn {
+  margin-left: -6px;
+}
+
+
 .main-block2 {
-  font-size: 8px;
+  max-width: 50px;
+  font-size: 10px;
 }
 
 hr {
   width: 99%;
   margin: auto;
+}
+
+.sidebar {
+  font-size: 8px;
 }

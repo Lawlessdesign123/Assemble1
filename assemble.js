@@ -10,7 +10,7 @@ box = document.getElementsByClassName("sidebar");
 for ( var i = 0; i < box.length; i++ ) (function(i){
 box[i].onmousemove = function(e) {
 if(e.buttons == 1)
-box[i].style.backgroundColor = backgroundColor, box[i].innerHTML = text, box[i].style.fontSize = "10px", box[i].style.padding = "4px";
+box[i].style.backgroundColor = backgroundColor, box[i].innerHTML = text, box[i].style.fontSize = "8px", box[i].style.padding = "0";
 }
 })(i);
 
@@ -38,7 +38,7 @@ box = document.getElementsByClassName("sidebar");
 for ( var i = 0; i < box.length; i++ ) (function(i){
 box[i].onmousedown = function(e) {
 if(e.buttons == 1)
-box[i].style.backgroundColor = backgroundColor, box[i].innerHTML = text, box[i].style.fontSize = "10px", box[i].style.padding = "4px";
+box[i].style.backgroundColor = backgroundColor, box[i].innerHTML = text, box[i].style.fontSize = "8px", box[i].style.padding = "0px";
 }
 })(i);
 
@@ -120,3 +120,24 @@ const app = {
 }
 
 document.addEventListener('DOMContentLoaded', app.init);
+
+//function closeInput(elm) {
+//    var td = elm.parentNode;
+//    var value = elm.value;
+//    td.removeChild(elm);
+//    td.innerHTML = value;
+//}
+
+//function addInput(elm) {
+//    if (elm.getElementsByTagName('input').length > 0) return;
+
+//    var value = elm.innerHTML;
+//    elm.innerHTML = '';
+
+//    var input = document.createElement('input');
+//    input.setAttribute('type', 'text');
+//    input.setAttribute('value', value);
+//    input.setAttribute('onBlur', 'closeInput(this)');
+//    elm.appendChild(input);
+//    input.focus();
+//}
